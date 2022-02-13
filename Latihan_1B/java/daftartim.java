@@ -51,7 +51,7 @@ class SepakBola {
 class Main {
   public static void main(String[] args) {
     Scanner sc= new Scanner(System.in); 
-    System.out.println("Masukan jumlah tim: "); //tampilan masukan
+    System.out.println("Masukan jumlah tim : "); //tampilan masukan
     int n=sc.nextInt();
 
     SepakBola[]arr=new SepakBola[n];
