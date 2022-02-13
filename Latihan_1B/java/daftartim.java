@@ -38,10 +38,10 @@ class SepakBola {
 
   public void print(){
     System.out.println("###======================Sepak Bola===========================###"); //tampilan keluaran
-    System.out.println("Nama tim :" + NamaTim); //tampilan keluaran
-    System.out.println("Nama Negara asal tim :"  + NegaraAsal); //tampilan keluaran
-    System.out.println("Tahun didirikan :"+ Didirikan); //tampilan keluaran
-    System.out.println("Jumlah pemain :"+ BanyakPemain); //tampilan keluaran
+    System.out.println("Nama tim : " + NamaTim); //tampilan keluaran
+    System.out.println("Nama Negara asal tim : "  + NegaraAsal); //tampilan keluaran
+    System.out.println("Tahun didirikan : "+ Didirikan); //tampilan keluaran
+    System.out.println("Jumlah pemain : "+ BanyakPemain); //tampilan keluaran
     System.out.println("###===========================================================###"); //tampilan keluaran
     
   }
@@ -59,13 +59,13 @@ class Main {
     int i=0;
     for(i=0;i<n;i++){
       Scanner SC= new Scanner(System.in); 
-      System.out.println("Nama tim :"); //tampilan masukan
+      System.out.println("Nama tim : "); //tampilan masukan
       String NamaTim=SC.nextLine();
-      System.out.println("Negara Asal :"); //tampilan masukan
+      System.out.println("Negara Asal : "); //tampilan masukan
       String NegaraAsal=SC.nextLine();
-      System.out.println("Tahun didirikan :"); //tampilan masukan
+      System.out.println("Tahun didirikan : "); //tampilan masukan
       int Didirikan=SC.nextInt(); 
-      System.out.println("Banyak pemain :"); //tampilan masukan
+      System.out.println("Banyak pemain : "); //tampilan masukan
       int BanyakPemain=SC.nextInt();
 
       arr[i] = new SepakBola(NamaTim,NegaraAsal,Didirikan,BanyakPemain);
