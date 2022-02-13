@@ -67,7 +67,7 @@ class Main {
       int Didirikan=SC.nextInt(); 
       System.out.println("Banyak pemain : "); //tampilan masukan
       int BanyakPemain=SC.nextInt();
-
+      System.out.println("###===========================================================###");
       arr[i] = new SepakBola(NamaTim,NegaraAsal,Didirikan,BanyakPemain);
     }  
 
