@@ -27,10 +27,10 @@ class SepakBola():
     self.BanyakPemain=BanyakPemain
   def print(self):
     print("###======================Sepak Bola===========================###") #tampilan keluaran
-    print("Nama tim :"+self.NamaTim)  #tampilan keluaran
-    print("Negara asal :"+self.NegaraAsal)  #tampilan keluaran
-    print("Tahun didirikan :"+self.TahunDidirikan)  #tampilan keluaran
-    print("Banyak pemain :"+str(self.BanyakPemain))  #tampilan keluaran
+    print("Nama tim : "+self.NamaTim)  #tampilan keluaran
+    print("Negara asal : "+self.NegaraAsal)  #tampilan keluaran
+    print("Tahun didirikan : "+self.TahunDidirikan)  #tampilan keluaran
+    print("Banyak pemain : "+str(self.BanyakPemain))  #tampilan keluaran
     print("###===========================================================###")  #tampilan keluaran
       
  #tampilan masukan
