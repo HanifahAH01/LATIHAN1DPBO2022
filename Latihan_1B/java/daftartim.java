@@ -19,10 +19,10 @@ class Human{
 
 
 class SepakBola {
-  String NamaTim;
-  String NegaraAsal;
-  int Didirikan;
-  int BanyakPemain;
+  String NamaTim; //atribut untuk nama tim sepak bola
+  String NegaraAsal; //atribut untuk asal segara tim sepak bola
+  int Didirikan; //atriibut untuk tahun didirikan tim sepak bola
+  int BanyakPemain; //atribut untuk banyak pemain tim sepak bola
 
 
   SepakBola(){
