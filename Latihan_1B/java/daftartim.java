@@ -12,10 +12,10 @@ import java.lang.*;
 import java.util.*;
 
 
-class Human{
+/*class Human{
   String name;
   int Tahun;
-}
+}*/
 
 
 class SepakBola {
